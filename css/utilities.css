@@ -67,6 +67,23 @@
   color: #fff;
 }
 
+/* Text colors */
+.text-primary {
+  color: var(--primary-clr);
+}
+
+.text-secondary {
+  color: var(--secondary-clr);
+}
+
+.text-dark {
+  color: var(--dark-clr);
+}
+
+.text-light {
+  color: var(--light-clr);
+}
+
 /* Text sizes */
 .lead {
   /* meant for paragraphs and stuff */
@@ -91,6 +108,28 @@
 
 .text-center {
   text-align: center;
+}
+
+/* Alert */
+.alert {
+  background-color: var(--light-clr);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-clr);
+  color: #fff;
+}
+
+.alert-error {
+  background-color: var(--error-clr);
+  color: #fff;
 }
 
 .flex {
